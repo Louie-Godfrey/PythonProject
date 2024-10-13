@@ -1,3 +1,9 @@
-#Test
+def helloWorld(inputA,inputB):
+    print("Hello, " + inputA + " " + inputB)
 
-#Test 2
+helloWorld("World", "War")
+helloWorld("Evil", "Good")
+helloWorld("Moon", "Sun")
+
+location = input("Where do you live?")
+print("I know where" + location + " is!!")
